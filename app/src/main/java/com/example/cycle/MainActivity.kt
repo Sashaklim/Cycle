@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
                     }
 
                     val result = numerator / denominator
-                    resultText.text = "Результат: $result"
+                    resultText.text = "Результат: %.5f".format(result)
                 }
             }
         }
